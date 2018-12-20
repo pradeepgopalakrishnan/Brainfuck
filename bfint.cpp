@@ -23,11 +23,12 @@ void ms(char* &data)
 }
 void dot(char* &data)
 {
-	printf("%c", *data);
+	printf("%d\n", *data);
 }
 void comma(char* &data)
 {
 	cin>>*data;
+	//*data=cin.get();
 }
 void lb(char* &data, char* &code)
 {
