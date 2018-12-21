@@ -16,6 +16,13 @@ color={
     '0':[0,0,0]
 }
 
+"""
+The first arg is the filename.
+The second is the width of the encoded image. Height will be calculated to fit code.
+The third is the image filename
+"""
+
+
 filename=sys.argv[1]
 f=open(filename, 'r')
 code=f.read().strip()

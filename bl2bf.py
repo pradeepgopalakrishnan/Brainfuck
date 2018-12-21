@@ -3,6 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
+"""
+The first arg is the BL image filename.
+The second and third are the rows and cols of code in the encoded image.
+The fourth is the desired filename to save the code
+"""
+
+
 filename=sys.argv[1]
 img_=np.asarray(PIL.Image.open(filename))
 img=img_.copy()
