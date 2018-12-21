@@ -2,6 +2,11 @@
 
 * Visit [Brainfuck(BF)](https://esolangs.org/wiki/brainfuck) and [Brainloller(BL)](https://esolangs.org/wiki/Brainloller) for reference.
 
+## Requirements:
+* PIL
+* Numpy
+* Matplotlib
+
 ## Hello World!: 
 * A simple **Hello World!** in BF:
 ```
@@ -25,3 +30,4 @@
 
 ### BF2BL and BL2BF:
 * Usage: Refer the code.
+
